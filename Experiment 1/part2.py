@@ -7,6 +7,6 @@ mobiles = [
             ]
 df = pd.DataFrame(mobiles,columns = ['company','min rate','max rate'])
 print(df)
-
+# hello bye
 dictionary = df.to_dict(orient='records')
 print(dictionary)
